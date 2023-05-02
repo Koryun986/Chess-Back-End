@@ -1,0 +1,30 @@
+const CONNECTION = "connection";
+const DISCONNECT = "disconnect";
+const SOCKET_CREATE_GAME = "create game";
+const SOCKET_ENTRY_GAME = "entry game";
+const CHESS_GAME_COLOR_WHITE = "white";
+const CHESS_GAME_COLOR_BLACK = "black";
+const GAME_STARTED = "start";
+const DISCONNECT_FROM_GAME = "disconnect_from_game";
+const ADD_GAMER = "add gamer";
+const REMOVE_GAMER = "remove gamer";
+const WAIT_OPONENT = "wait to oponent";
+const GAME_MOVE = "move";
+const SEND_GAME_FEN = "send fen"
+const GAME_CHANGES = "game changes";
+
+
+exports.CONNECTION = CONNECTION; 
+exports.DISCONNECT = DISCONNECT;
+exports.SOCKET_CREATE_GAME = SOCKET_CREATE_GAME;
+exports.SOCKET_ENTRY_GAME = SOCKET_ENTRY_GAME;
+exports.CHESS_GAME_COLOR_WHITE = CHESS_GAME_COLOR_WHITE;
+exports.CHESS_GAME_COLOR_BLACK = CHESS_GAME_COLOR_BLACK; 
+exports.GAME_STARTED = GAME_STARTED;
+exports.DISCONNECT_FROM_GAME = DISCONNECT_FROM_GAME;
+exports.ADD_GAMER = ADD_GAMER;
+exports.REMOVE_GAMER = REMOVE_GAMER;
+exports.WAIT_OPONENT = WAIT_OPONENT;
+exports.GAME_MOVE = GAME_MOVE;
+exports.SEND_GAME_FEN = SEND_GAME_FEN;
+exports.GAME_CHANGES = GAME_CHANGES;
